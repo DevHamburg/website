@@ -1,0 +1,21 @@
+.border-bg-w {
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.mb-head {
+    margin-bottom: 100px;
+}
+
+.badge-secondary {
+    background-color: #ff5600;
+}
+
+.t-col-2 {
+    columns: 2;
+  }
+  
+  .t-col-3 {
+    columns: 3;
+  }

@@ -5,66 +5,180 @@
   <meta name="viewport" content="width=^, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/img.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/text.css">
   <script src="bootstrap.min.js"></script>
   <title>DevHamburg</title>
 </head>
-<body>
-  <h1>JUHU :-)</h1>
+<body class="bg-light">
   <div class="container">
-    <header class="row md-4">
-      <div class="col-4">
-        <a href="/"><img class="img-fluid rounded" src="http://www.avatarsinpixels.com/Public/images/previews/minipix4.png" alt="DevHamburg">
-        </a>
-      </div>
-      <div class="col-8">
-        <nav class="text-right">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
-          <a href="#footer">Footer</a>
-        </nav>
-      </div> 
+
+    <header class="row mb-head">
+          <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+              <img class="logo-dev-img" src="img/devhamburg.png" alt="">
+              <a class="navbar-brand" href="#">DEJAN GUBERINIC</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">PROFILE<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">REFERENCES<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">ABOUT ME<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">IMPRINT<span class="sr-only">(current)</span></a>
+                  </li>
+              </div>
+            </nav>
     </header>
-    <main class="row">
-      <div class="col-8">
-        <articlen class="text-uppercase">
-          <h1 class="bg-dark text-light">Hello world</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Mollitia</strong> labore, nam odit <mark>itaque</mark> nobis <em>eius</em> amet placeat numquam fuga aliquid dicta expedita aspernatur eos adipisci assumenda incidunt deserunt laboriosam. Quo?</p>
-          <img src="http://www.avatarsinpixels.com/Public/images/previews/minipix4.png" alt="DevHamburg">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem deleniti, dolore, modi possimus maiores distinctio quae, expedita beatae omnis corporis itaque quis asperiores cum deserunt. Expedita recusandae inventore commodi quidem</p>
-        </articlen>
+
+    <main>
+      <div class="row mb-4">
+        <div class="col-md-3 col-sm p-0">
+            <div class="card" style="width: 100%;">
+                <img src="img/dejan.jpg" class="card-img-top profile-img mt-4" alt="">
+                <div class="card-body">
+                  <h3 class="h3-title-main mt-3">LIEBLINGSZITAT</h3>
+                  <p class="card-text mt-4">Eine Investition in Wissen bringt immer noch die besten Zinsen.</p>
+                  <p class="card-text"><small class="text-muted">Benjamin Franklin</small></p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-9 col-sm border-bg-w p-0">
+          <div class="m-5">
+              <h2 class="main-header-title">Dejan Guberinic</h2>
+              <h2 class="main-header-subtitle mb-4">Full-Stack-Developer</h2>
+
+              <h3 class="h3-title-main">FRONTEND SKILLS</h3>
+              <span class="badge badge-pill badge-secondary">HTML5</span>
+              <span class="badge badge-pill badge-secondary">CSS3</span>
+              <span class="badge badge-pill badge-secondary">SASS</span>
+              <span class="badge badge-pill badge-secondary">Javascript</span>
+              <span class="badge badge-pill badge-secondary">ES07</span>
+              <span class="badge badge-pill badge-secondary">Bootstrap 4</span>
+              <span class="badge badge-pill badge-secondary">Angular5+</span>
+              <span class="badge badge-pill badge-secondary">React & Redux</span>
+              <span class="badge badge-pill badge-secondary">Vue.js</span>
+              <span class="badge badge-pill badge-secondary">UX Design</span>
+              <h3 class="h3-title-main mt-2">BACKEND SKILLS</h3>
+              <span class="badge badge-pill badge-secondary">node.js</span>
+              <span class="badge badge-pill badge-secondary">Express</span>
+              <span class="badge badge-pill badge-secondary">API's</span>
+              <span class="badge badge-pill badge-secondary">REST-Schnittstellen</span>
+              <span class="badge badge-pill badge-secondary">Java Spring</span>
+              <span class="badge badge-pill badge-secondary">MongoDB</span>
+              <span class="badge badge-pill badge-secondary">MySQL</span>
+              <h3 class="h3-title-main mt-2">OTHER SKILLS</h3>
+              <span class="badge badge-pill badge-secondary">Git</span>
+              <span class="badge badge-pill badge-secondary">Github</span>
+              <span class="badge badge-pill badge-secondary">Gitlab</span>
+              <span class="badge badge-pill badge-secondary">Bitbucket</span>
+              <span class="badge badge-pill badge-secondary">Jira</span>
+              <span class="badge badge-pill badge-secondary">Trello</span>
+              <span class="badge badge-pill badge-secondary">JSON</span>
+              <span class="badge badge-pill badge-secondary">npm</span>
+              <span class="badge badge-pill badge-secondary">nvm</span>
+              <span class="badge badge-pill badge-secondary">Ubunto</span>
+              <span class="badge badge-pill badge-secondary">Plesk</span>
+              <span class="badge badge-pill badge-secondary">Scrum</span>
+              <span class="badge badge-pill badge-secondary">Kanban</span>
+              <span class="badge badge-pill badge-secondary">Markdown</span>
+              <span class="badge badge-pill badge-secondary">Wrodpress</span>
+              <span class="badge badge-pill badge-secondary">CMS</span>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <aside>
-          <from action="">
-            <div class="form-group row">
-              <label for="Search" class="col-form-label">Search</label>
-              <input type="search" readonly class="form-control-plaintext" placeholder="Search...">               
+
+      <div class="row border-bg-w p-3 mb-4">
+        <div class="col-12 pt-4">
+          <h3 class="h2-title-main-border mb-4">CONTACT</h3>
+        </div>
+          <div class="col-md-2 col">
+              <p class="te-title-main text-left"><i class="fas fa-at mr-1"></i>E-MAIL :</p>
+              <p class="te-title-main text-left"><i class="fas fa-phone mr-1"></i>PHOHNE :</p>
+              <p class="te-title-main text-left"><i class="fas fa-globe-europe mr-1"></i>WEBSITE :</p>
+          </div>
+        <div class="col-md-10 col">
+            <p class="font-color-orang text-left">guberinic@gmnail.com</p>
+            <p class="font-color-orang text-left">0176 619 252 94</p>
+            <p class="font-color-orang text-left">www.dev-hamburg.de</p>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+          <div class="card-group">
+              <div class="card">
+                <img src="img/github-brands.svg" class="card-img-top logo-img" alt="codepen-brands">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/codepen-brands.svg" class="card-img-top logo-img" alt="codepen-brands#">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/neuefische.svg" class="card-img-top logo-img" alt="codepen-brands">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
-            <button class="btn btn-info">Search</button>
-          </from>
-          
-          <hr>
-          <ul>
-            <li>List item 1</li>
-            <li>List item 2</li>
-            <li>List item 3</li>
-            <li>List item 4</li>
-            <li>List item 5</li>
-          </ul>
-        </aside>
+          </div>
+
+      <div class="row border-bg-w mb-4">
+        <div class="col-6">
+          <h2>h2 title</h2>
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="col-6">
+          <h2>h2 title</h2>
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
       </div>
     </main>
-    <footer id="footer">
-      &copy; 2019 DevHamburg<br>
-      <a href="#">Jump to top</a>
-    </footer>  
-    
-  </div>
-  
-  
-  
-  
+
+    <footer>
+      <div class="row border-bg-w mb-4">
+        <div class="col-4">
+            <h2>h2 title</h2>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="col-4">
+            <h2>h2 title</h2>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="col-4">
+            <h2>h2 title</h2>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>  
 </body>
 </html>
