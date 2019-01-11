@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    .card-size-l{
+        margin-left: 3rem;
+    }
+    .card-size-r{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+    .card-size-m{
+        margin: 3rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .card-size-l{
+        margin: 0;
+    }
+    .card-size-r{
+        margin: 0;
+    }
+    .card-size-m{
+        margin: 0;
+    }
+  } 

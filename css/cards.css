@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+    .card-size-l{
+        margin-left: 1rem !important;
+}
+    .card-size-m{
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+    .card-size-r{
+        margin-right: 1rem !important;
+    }
+  }

@@ -3,8 +3,7 @@
   height: 80%;
   width: 80%;
   display: block;
-  margin: auto !important;
-  margin-top: 2rem !important;
+  margin: 0 auto;
 }
 .logo-dev-img {
     height: 80px;
@@ -14,5 +13,5 @@
     height: 60%;
     width: 60%;
     display: block;
-    margin: auto !important;
+    margin: 0 auto;
 }
