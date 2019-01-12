@@ -40,3 +40,7 @@
 .t-col-3 {
     columns: 3;
 }
+
+.margin-projects {
+    margin-top: 4rem;
+}
