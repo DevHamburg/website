@@ -3,6 +3,17 @@
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
 }
+.border-bg-g {
+    background-color: #343a40;
+    border: 1px solid rgba(0,0,0,.125);
+  }
+
+  .border-bg-g-w {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
 
 .navbar-light {
     background-color: #ffffff;
@@ -15,7 +26,7 @@
 }
 
 .mb-head {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .orange-color {

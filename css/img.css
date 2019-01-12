@@ -11,8 +11,13 @@
     width: 80px;
 }
 .logo-img {
-    height: 60%;
-    width: 60%;
+    width: 80%;
     display: block;
     margin: auto !important;
+    margin-top: 2rem !important;
+}
+
+.img-size-projekte {
+    width: 100px;
+    height: 100px;
 }
